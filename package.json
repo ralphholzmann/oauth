@@ -1,0 +1,27 @@
+{
+  "name": "oauth",
+  "version": "0.4.0",
+  "description": "OAuth Node.js module.",
+  "keywords": [
+    "cloud",
+	"dropbox",
+    "storage",
+    "REST",
+    "interface"
+  ],
+  "author": "Ralph Holzmann <ralphholzmann@gmail.com>",
+  "main": "index",
+  "dependencies": {
+    "oauth": "https://github.com/ralphholzmann/oauth/tarball/master",
+    "underscore": ">=0.8.2"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "devDependencies": {
+	"vows" : ">=0.4.0"
+  }
+}
